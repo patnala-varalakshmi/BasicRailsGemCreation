@@ -45,7 +45,7 @@ structure should be like
 
 - lib
     - first_gem.rb
-  - first_gem.gemspec
+- first_gem.gemspec
 
 Done. It's time to build it
 ```ruby
