@@ -51,7 +51,7 @@ you can install it locally by " gem install file_name.gem"     //gem install Fir
 
 Checking Locally:
 
-%irb
+//irb
 >> require 'first_gem'
 => true
 >> FirstGem.is_working?
@@ -60,7 +60,8 @@ Yes It's Working!
 
 Publilsh:
 
-curl -u <user_name> https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
+curl -u <user_name> https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials 
+
 Enter host password for user 'user_name':
 
 then, "gem push <file_name>.gem"  //gem push FirstGem515-0.0.0.gem
