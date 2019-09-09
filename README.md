@@ -3,11 +3,6 @@ You Are going to create your own ruby gem and publish it in RubyGems.org
 
 Let's Do IT
 
-1. root directory
-  - lib
-    - first_gem.rb
-  - first_gem.gemspec
-
 create a directory "lib",
 
 add new file "<gem_file_name>.rb" into the created "lib" folder
@@ -46,6 +41,12 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
 end
 ```
+structure should be like 
+
+- lib
+    - first_gem.rb
+  - first_gem.gemspec
+
 Done. It's time to build it
 ```ruby
 gem build <gemspec_file>     //gem build first_gem.gemspec
