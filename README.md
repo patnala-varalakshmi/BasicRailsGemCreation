@@ -3,6 +3,13 @@ You Are going to create your own ruby gem and publish it in RubyGems.org
 
 Let's Do IT
 
+root
+  -lib
+    -first_gem.rb
+  -first_gem.gemspec
+
+
+
 create a directory "lib",
 
 add new file "<gem_file_name>.rb" into the created "lib" folder
