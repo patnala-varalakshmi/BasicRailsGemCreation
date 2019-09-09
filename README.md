@@ -14,7 +14,7 @@ class <gem_class_name>
 end
 ```
 
-#Example: I have created first_gem.rb file
+#Example: I have created lib/first_gem.rb file
 ```ruby
 class FirstGem
   def self.is_working?
